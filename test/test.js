@@ -11,7 +11,7 @@
 
     var expect = chai.expect;
 
-    chai.Assertion.includeStack = true;
+    chai.config.includeStack = true;
 
     describe('mailreader', function() {
         before(function() {

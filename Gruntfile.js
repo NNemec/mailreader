@@ -1,5 +1,6 @@
+'use strict';
+
 module.exports = function(grunt) {
-    'use strict';
 
     // Project configuration.
     grunt.initConfig({
@@ -51,8 +52,8 @@ module.exports = function(grunt) {
                     'arraybuffer-slice/index.js',
                     'emailjs-stringencoding/src/*',
                     'emailjs-mime-parser/src/*',
-                    'emailjs-mime-parser/node_modules/emailjs-mime-codec/src/*',
-                    'emailjs-mime-parser/node_modules/emailjs-addressparser/src/*'
+                    'emailjs-mime-codec/src/*',
+                    'emailjs-addressparser/src/*'
                 ],
                 dest: 'test/lib/',
                 rename: function(dest, src) {
