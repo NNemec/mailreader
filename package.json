@@ -1,7 +1,8 @@
 {
-  "name": "mailreader",
+  "name": "wo-mailreader",
   "version": "1.0.0",
   "license": "MIT",
+  "repository": "NNemec/wo-mailreader",
   "scripts": {
     "test": "grunt"
   },
@@ -10,23 +11,19 @@
     "emailjs-stringencoding": "^1.0.0",
     "emailjs-mime-parser": "^1.0.0"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com:whiteout-io/mailreader.git"
-  },
   "devDependencies": {
-    "chai": "~1.8.1",
-    "grunt": "~0.4.1",
-    "grunt-contrib-connect": "~0.6.0",
-    "grunt-contrib-jshint": "0.6.4",
-    "grunt-contrib-copy": "*",
-    "grunt-contrib-clean": "*",
-    "grunt-mocha-test": "~0.10.2",
-    "grunt-contrib-watch": "*",
-    "mocha": "~1.16.2",
-    "phantomjs": "~1.9.7-1",
-    "grunt-mocha-phantomjs": "~0.4.0",
-    "requirejs": "~2.1.10",
-    "arraybuffer-slice": "0.0.2"
+    "arraybuffer-slice": "~0.1.2",
+    "chai": "~3.5.0",
+    "grunt": "~1.0.1",
+    "grunt-contrib-clean": "~1.0.0",
+    "grunt-contrib-connect": "~1.0.2",
+    "grunt-contrib-copy": "~1.0.0",
+    "grunt-contrib-jshint": "~1.1.0",
+    "grunt-contrib-watch": "~1.0.0",
+    "grunt-mocha-phantomjs": "~4.0.0",
+    "grunt-mocha-test": "~0.13.2",
+    "mocha": "~3.2.0",
+    "phantomjs-prebuilt": "~2.1.14",
+    "requirejs": "~2.3.3"
   }
 }
